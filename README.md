@@ -36,7 +36,10 @@ void loop() {
 }
 
 ### Evidence
-
+[the code on Ardunio](https://create.arduino.cc/editor/atamang62/41046b03-d2d1-43d5-b7ff-e4ded7ff7a52)
 ### Image or Wiring
+<img src="https://github.com/atamang62/BasicArduino/blob/main/images/SIK_Circuit_1A-Blink_bb.png" width="400">
+Image credit belongs to [roy Baverstock](https://troybaverstock.com/learn/fritzing-circuit-diagrams/)
 
 ### Reflection
+I learned tht you have to Write in capital letteres inside the digital wire parenthesis. The delay number is in milliseconds not seconds.

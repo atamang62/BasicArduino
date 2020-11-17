@@ -14,25 +14,26 @@ I'm going to learn how to use an Arduino, and make awesome things with it!
 ```C++
 
 ```
+*/
 
-### Evidence
-[Here is my code on Arduino Create](https://create.arduino.cc/editor/helmstk1/9a3831dd-4b86-42f2-be49-c28b84874092/preview)
+// the setup function runs once when you press reset or power the board
+void setup() {
+  // initialize digital pin LED_BUILTIN as an output.
+  pinMode(LED_BUILTIN, OUTPUT);
+  Serial.begin(9600);
+  Serial.println("Hello World!");
+}
 
-### Image or Wiring
-<img src="http://troybaverstock.com/wp-content/uploads/2019/04/arduino-servo-button-red-green-RGB-LED-wiring-diagram.png" width="300px" /> 
-Image credit belongs to [Troy Baverstock](https://troybaverstock.com/learn/fritzing-circuit-diagrams/)
+// the loop function runs over and over again forever
+void loop() {
+    Serial.println("Blink");
+    delay(1000);
 
-
-### Reflection
-write a reflection here, remember that it should be usefull, not a diary entry.
-
-## FiniteLEDBlink
-
-### Description & Code
-
-```C++
-Code Goes Here
-```
+  digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
+  delay(250);                       // wait for a second
+  digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
+  delay(250);                       // wait for a second
+}
 
 ### Evidence
 

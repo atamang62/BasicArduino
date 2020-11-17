@@ -42,4 +42,4 @@ void loop() {
 Image credit belongs to [roy Baverstock](https://troybaverstock.com/learn/fritzing-circuit-diagrams/)
 
 ### Reflection
-I learned tht you have to Write in capital letteres inside the digital wire parenthesis. The delay number is in milliseconds not seconds.
+I learned that you have to Write in capital letteres inside the digital wire parenthesis. The delay number is in milliseconds not seconds.

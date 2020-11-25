@@ -6,6 +6,8 @@ I'm going to learn how to use an Arduino, and make awesome things with it!
 * [TableOfContents](#TableOfContents)
 * [HelloArduino](#HelloArduino)
 * [FiniteLEDBlink](#FiniteLEDBlink)
+* [VariableLEDBlinker](#VariableLEDBlinker)
+
 
 ## HelloArduino
 
@@ -99,3 +101,48 @@ Image credit belongs to [Troy Baverstock]-(https://troybaverstock.com/learn/frit
 ### Reflection
 It was really hard for me to do this assignment. I learned that you have to end with ";" and that you must include the code inside "{,}". I also learned about if statments and int.
 
+### VariableLEDBlinker
+
+## Description & Code
+
+```C++
+
+```
+ //Asish Tamang
+//Variable LED Blinkers
+//This code should make the led blink 5 time at different speed.
+
+
+
+int ledPin = 8;
+int delayVar = 1000; //how long it should be delayed 
+
+void setup() {
+  pinMode(ledPin,OUTPUT);
+  Serial.begin(9600);
+}
+
+// the loop function runs over and over again forever
+void loop() {
+    Serial.println("delayVar");
+
+  digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
+  delay(delayVar);                       // wait for a second
+  digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
+  delay(delayVar);                       // wait for a second
+  
+  if(delayVar > 100); {
+  
+  delayVar = delayVar - 100;
+  }
+}
+
+### Evidence
+[the code on Ardunio](https://create.arduino.cc/editor/atamang62/f0a561dc-5a1d-4f47-873c-1c3e296398bd)
+
+### Image or Wiring
+<img src="https://github.com/atamang62/BasicArduino/blob/main/images/SIK_Circuit_1A-Blink_bb.png" width="400">
+Image credit belongs to [Troy Baverstock]-(https://troybaverstock.com/learn/fritzing-circuit-diagrams)
+
+## Reflection 
+In this I learned what if statement actually ment. delayVar is a way to delay something witouth having to put in numbers.

@@ -198,7 +198,7 @@ Serial.println(buttonState);
 ### Evidence
 [the code on Ardunio](https://create.arduino.cc/editor/atamang62/4611004f-a891-4ddf-aa44-6ca058e80c76)
 ### Image or Wiring
-<img src="https://github.com/atamang62/BasicArduino/blob/main/images/arduino-led-button-wiring-diagram.jpg="400">
+<img src="https://github.com/atamang62/BasicArduino/blob/main/images/arduino-led-button-wiring-diagram.jpg" width="400">
 Image credit [belongs to](https://arduinogetstarted.com/tutorials/arduino-button-led)
 
 ### Reflection

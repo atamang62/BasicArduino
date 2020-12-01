@@ -7,6 +7,7 @@ I'm going to learn how to use an Arduino, and make awesome things with it!
 * [HelloArduino](#HelloArduino)
 * [FiniteLEDBlink](#FiniteLEDBlink)
 * [VariableLEDBlinker](#VariableLEDBlinker)
+* [Button-ActivatedLED](#Button-ActivatedLED
 
 
 ## HelloArduino
@@ -146,3 +147,59 @@ Image credit belongs to [Troy Baverstock]-(https://troybaverstock.com/learn/frit
 
 ## Reflection 
 In this I learned what if statement actually ment. delayVar is a way to delay something witouth having to put in numbers.
+
+## Button-ActivatedLED
+
+### Description & Code
+
+```C++
+
+```
+*/
+
+//Button-Activated LED / Asish Tamang
+//December 1 2020
+//this code should allow me to press a button which turns on the led and off when I let go.
+
+int ledPin = 2;
+int buttonPin = 12;
+int buttonState= 0;
+
+void setup() {
+  pinMode(ledPin, OUTPUT);
+  pinMode(buttonPin, INPUT);
+  Serial.begin(9600);
+  
+}
+
+void loop() {
+  buttonState = digitalRead(buttonPin);
+  Serial.print("buttonState is: ");
+Serial.println(buttonState);
+
+  if (buttonState == HIGH) {  
+      digitalWrite(ledPin, HIGH);  //code for led lights to trun on and off
+      delay(100);
+      digitalWrite(ledPin, LOW);
+      delay(100);
+      Serial.println("Turn on!"); //should say turn on when the button is pressed
+
+  }
+
+  else {
+    digitalWrite(ledPin, LOW);   
+    Serial.println("Turn Off!");  //should say turn off when the button is not pressed
+
+  }
+  
+}
+
+
+### Evidence
+[the code on Ardunio](https://create.arduino.cc/editor/atamang62/4611004f-a891-4ddf-aa44-6ca058e80c76)
+### Image or Wiring
+<img src="https://github.com/atamang62/BasicArduino/blob/main/images/arduino-led-button-wiring-diagram.jpg="400">
+Image credit [belongs to](https://arduinogetstarted.com/tutorials/arduino-button-led)
+
+### Reflection
+In this code I made a small mistake. I forgot that semi-colon acted as periods. When I put a semi-colon after the "if" it said to stop the code, which ruiend the whole code.

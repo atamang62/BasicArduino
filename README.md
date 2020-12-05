@@ -17,8 +17,6 @@ I'm going to learn how to use an Arduino, and make awesome things with it!
 ```C++
 
 ```
-*/
-
 // the setup function runs once when you press reset or power the board
 void setup() {
   // initialize digital pin LED_BUILTIN as an output.
@@ -54,7 +52,6 @@ I learned that you have to Write in capital letteres inside the digital wire par
 ```C++
 
 ```
-*/
 //Asish Tamang
 //LED Finite Blink
 //This code should make an LED blink 5 times and stop
@@ -113,8 +110,6 @@ It was really hard for me to do this assignment. I learned that you have to end 
 ```C++
 
 ```
-*/
-
 //Asish Tamang
 //Variable LED Blinkers
 //This code should make the led blink 5 time at different speed.
@@ -161,8 +156,6 @@ In this I learned what if statement actually ment. delayVar is a way to delay so
 ```C++
 
 ```
-*/
-
 //Asish Tamang
 //December 1 2020
 //Button-Activated LED: this code should allow me to press a button which turns on the led and off when I let go.

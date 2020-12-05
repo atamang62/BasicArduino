@@ -114,6 +114,7 @@ It was really hard for me to do this assignment. I learned that you have to end 
 
 ```
 */
+
 //Asish Tamang
 //Variable LED Blinkers
 //This code should make the led blink 5 time at different speed.
@@ -162,9 +163,9 @@ In this I learned what if statement actually ment. delayVar is a way to delay so
 ```
 */
 
-//Button-Activated LED / Asish Tamang
+//Asish Tamang
 //December 1 2020
-//this code should allow me to press a button which turns on the led and off when I let go.
+//Button-Activated LED: this code should allow me to press a button which turns on the led and off when I let go.
 
 int ledPin = 2;
 int buttonPin = 12;

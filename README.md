@@ -7,7 +7,7 @@ I'm going to learn how to use an Arduino, and make awesome things with it!
 * [HelloArduino](#HelloArduino)
 * [FiniteLEDBlink](#FiniteLEDBlink)
 * [VariableLEDBlinker](#VariableLEDBlinker)
-* [Button-ActivatedLED](#Button-ActivatedLED
+* [Button-ActivatedLED](#Button-ActivatedLED)
 
 
 ## HelloArduino
@@ -51,6 +51,10 @@ I learned that you have to Write in capital letteres inside the digital wire par
 ## FiniteLEDBlink
 
 ## Description & Code
+```C++
+
+```
+*/
 //Asish Tamang
 //LED Finite Blink
 //This code should make an LED blink 5 times and stop
@@ -109,7 +113,8 @@ It was really hard for me to do this assignment. I learned that you have to end 
 ```C++
 
 ```
- //Asish Tamang
+*/
+//Asish Tamang
 //Variable LED Blinkers
 //This code should make the led blink 5 time at different speed.
 
